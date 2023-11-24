@@ -1,0 +1,46 @@
+html {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background-color: #ccc;
+  height: 100%;
+  margin: 0;
+  overflow-y: hidden
+};
+
+#root {
+  height: 100%;
+  margin: 0;
+};
+
+@media (max-width: 1600px) {
+  body {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 1450px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 1340px) {
+  body {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 1200px) {
+  body {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 850px) {
+  body {
+    font-size: 9px;
+  }
+}
